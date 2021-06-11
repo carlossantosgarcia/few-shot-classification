@@ -20,5 +20,7 @@ $$ L_{triplet}=max\big(0,d(x^a,x^p)+m-d(x^a,x^n)\big)$$
 The idea is to **push similar images close together** and **dissimilar images far from another** in the embedding space. 
 
 ## Prototypical Networks
+Coming
 
 ## Model-Agnostic Meta-Learning
+Coming
