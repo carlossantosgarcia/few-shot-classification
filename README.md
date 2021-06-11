@@ -3,4 +3,4 @@ The objective of this project is to evaluate the feasibility of using pre-traine
 
 ## Siamese Networks
 They consist of neural networks that contain two or more identical sub-networks, that share same characteristics and parameters and undergo the same updates during training.
-![img](https://github.com/carlossantosgarcia/images/siamese_network_diagram.png)
+![img](https://github.com/carlossantosgarcia/images/siamese_networks_diagram.png)
