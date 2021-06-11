@@ -12,12 +12,7 @@ We approach FSL through a retrieval task that is evaluated with mean average pre
 ## Siamese Networks
 They consist of neural networks that contain two or more identical sub-networks, that share same characteristics and parameters and undergo the same updates during training.
 ![img](https://github.com/carlossantosgarcia/few-shot-classification/blob/main/images/siamese_networks_diagram.png)
-Two main losses have been used to train our models: contrastive loss and triplet loss. The former is based on using pairs of images and can be expressed as: $$L_{contrastive}=y\times d(x,x')+(1-y)\times\max(0,m-d(x,x'))$$
-where $x$ and $x'$ are the images fed into the network,  forming a positive pair (same class : $y=1$) or negative pair (different classes : $y=0$).
-The lattes is based on the use of triplets of images: an anchor sample $x^a$, a positive sample $x^p$ (same class as the anchor) and a negative sample $x^n$ (different class). This loss can be written as:
-$$ L_{triplet}=max\big(0,d(x^a,x^p)+m-d(x^a,x^n)\big)$$
-
-The idea is to **push similar images close together** and **dissimilar images far from another** in the embedding space. 
+Two main losses have been used to train our models: contrastive loss and triplet loss. The former is based on using pairs of images. The latter is based on the use of triplets of images. The idea of both losses is to **push similar images close together** and **dissimilar images far from another** in the embedding space. 
 
 ## Prototypical Networks
 Coming
