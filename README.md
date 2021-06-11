@@ -1,5 +1,5 @@
 # Few-Shot-Classification (FSL)
-The objective of this project is to evaluate the feasibility of using pre-trained feature-extractors to quickly categorize products based on images with limited amounts of data. To do that, we explore different techniques based on metric learning (siamese and prototypical networks) and meta-learning (model-agnostic meta-learning).
+The objective of this project is to evaluate the feasibility of using pre-trained feature-extractors to quickly categorize products based on images with limited amounts of data. To do that, we explore different techniques based on metric learning (siamese and prototypical networks) and meta-learning (model-agnostic meta-learning). Our results are presented in our [defense presentation](../blob/main/project defense/presentation.pdf) and [report](../blob/main/project defense/report.pdf)
 
 ## Dataset
 We use real images from seven luxury brands. The dataset provided by Navee contains 3967 classes accross 7 brands. Each class represents a fashion article and contains about 5 images. Here is an example of the images available for three different articles.
