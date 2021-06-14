@@ -18,4 +18,6 @@ Two main losses have been used to train our models: contrastive loss and triplet
 Coming
 
 ## Model-Agnostic Meta-Learning
-Coming
+This is an implementation of the paper by Finn et. al, that uses meta-learning to train a model on batches of tasks, for the purpose of image classification using few-shot 
+learning. Although it's model-agnostic, since it can be implemented with any gradient-descent model, we use a convolutional network. Training is composed of training on each
+individual task then minimizing the sum of all losses. This implementation is heavily inspired by [this one](https://github.com/dragen1860/MAML-Pytorch).
