@@ -15,7 +15,7 @@ They consist of neural networks that contain two or more identical sub-networks,
 Two main losses have been used to train our models: contrastive loss and triplet loss. The former is based on using pairs of images. The latter is based on the use of triplets of images. The idea of both losses is to **push similar images close together** and **dissimilar images far from another** in the embedding space. 
 
 ## Prototypical Networks
-Coming
+Prototypical networks are a metric-learning technique using in our implementation ResNet-50 to map fashion images into a metric space where classification is then done computing prototypes (means) from each category and their distance to the query image. This simple method can actually thrive in limited-data regime.
 
 ## Model-Agnostic Meta-Learning
 This is an implementation of the paper by Finn et. al, that uses meta-learning to train a model on batches of tasks, for the purpose of image classification using few-shot 
