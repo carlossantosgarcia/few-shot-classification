@@ -10,7 +10,7 @@ def path_to_label(path, normal = False):
         path = path.split('/')
     else:
         path = path.split('\\')
-    label = path[2] # Removed the first two folders in which our images lied
+    label = path[2] # Remove the first two folders in which our images lie
     for w in path[3:-1]:
         if not w.endswith('.jpg'):
             label = label + '-' + w        
